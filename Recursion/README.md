@@ -9,4 +9,4 @@ This directory serves as an execution ledger for problems solved using the Recur
 
 | # | Problem & Link | Time | Pattern & Triggers | Complexity | The "Gotcha" / Bottleneck | Edge Cases |
 | :--- | :--- | :---: | :--- | :--- | :--- | :--- |
-| 1 | [Example Problem Name](https://leetcode.com/...) | 12m logic<br>25m total | **Pattern:** Backtracking<br>**Trigger:** "Return all possible permutations" | **Time:** `O(N * N!)`<br>**Space:** `O(N)` | Forgot to remove the last element from the temporary array during the backtracking step, leading to duplicate states. | Empty array, duplicate elements |
+| 1 | [78. Subsets](https://leetcode.com/problems/subsets/description/) | 5m logic<br>10m total | **Pattern:** Backtracking<br>**Trigger:** "Return all possible subsets" | **Time:** `O(2^N)`<br>**Space:** `O(N*2^N)` | Used more memory initially due to not passing current subset by reference | -- |
