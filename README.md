@@ -7,7 +7,7 @@ A structured repository tracking my progress in competitive programming and algo
 Problems are categorized by core patterns rather than data structures. This helps in building a reflex to identify the underlying logic required for a problem.
 
 * [Recursion](./Recursion)
-* [Sliding Window](./Sliding_Window) *(Coming Soon)*
+* [Linked List](./LinkedList)
 * [Two Pointers](./Two_Pointers) *(Coming Soon)*
 * [Monotonic Stack](./Monotonic_Stack) *(Coming Soon)*
 * [Dynamic Programming](./Dynamic_Programming) *(Coming Soon)*
