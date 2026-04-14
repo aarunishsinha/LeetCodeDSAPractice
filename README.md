@@ -10,8 +10,8 @@ Problems are categorized by core patterns rather than data structures. This help
 * [Linked List](./LinkedList)
 * [Two Pointers](./TwoPointers)
 * [Greedy](./Greedy)
-* [Dynamic Programming](./Dynamic_Programming) *(Coming Soon)*
-* [Graphs & Trees](./Graphs_Trees) *(Coming Soon)*
+* [Dynamic Programming](./DynamicProgramming)
+* [Math](./Math)
 
 ## 🎯 The Methodology
 
