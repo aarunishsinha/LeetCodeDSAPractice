@@ -9,7 +9,7 @@ Problems are categorized by core patterns rather than data structures. This help
 * [Recursion](./Recursion)
 * [Linked List](./LinkedList)
 * [Two Pointers](./TwoPointers)
-* [Monotonic Stack](./Monotonic_Stack) *(Coming Soon)*
+* [Greedy](./Greedy)
 * [Dynamic Programming](./Dynamic_Programming) *(Coming Soon)*
 * [Graphs & Trees](./Graphs_Trees) *(Coming Soon)*
 
