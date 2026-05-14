@@ -1,6 +1,6 @@
 # Pattern: Greedy
 
-This directory serves as an execution ledger for problems solved using the Recursion pattern. 
+This directory serves as an execution ledger for problems solved using the Greedy pattern. 
 
 > **The 15-Minute Rule:** If core logic is not cracked within 15 minutes, the problem is marked as a fail/review. 
 > **Complexity Rule:** Time and Space complexity must be stated before coding.
