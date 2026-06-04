@@ -13,6 +13,7 @@ Problems are categorized by core patterns rather than data structures. This help
 * [Dynamic Programming](./DynamicProgramming)
 * [Math](./Math)
 * [Binary Search](./BinarySearch/)
+* [Trie](./Trie/)
 
 ## 🎯 The Methodology
 
