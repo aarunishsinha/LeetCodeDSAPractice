@@ -15,6 +15,7 @@ Problems are categorized by core patterns rather than data structures. This help
 * [Binary Search](./BinarySearch/)
 * [Trie](./Trie/)
 * [Graphs](./Graphs/)
+* [Priority Queue](./PriorityQueue/)
 
 ## 🎯 The Methodology
 
