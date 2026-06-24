@@ -17,6 +17,7 @@ Problems are categorized by core patterns rather than data structures. This help
 * [Graphs](./Graphs/)
 * [Priority Queue](./PriorityQueue/)
 * [Intervals](./Intervals/)
+* [Trees](./Trees/)
 
 ## 🎯 The Methodology
 
