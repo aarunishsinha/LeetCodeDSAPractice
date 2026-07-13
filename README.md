@@ -18,6 +18,7 @@ Problems are categorized by core patterns rather than data structures. This help
 * [Priority Queue](./PriorityQueue/)
 * [Intervals](./Intervals/)
 * [Trees](./Trees/)
+* [Prefix Sum](./PrefixSum/)
 
 ## 🎯 The Methodology
 

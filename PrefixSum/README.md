@@ -1,0 +1,12 @@
+# Pattern: Prefix Sum
+
+This directory serves as an execution ledger for problems solved using the Prefix Sum pattern. 
+
+> **The 15-Minute Rule:** If core logic is not cracked within 15 minutes, the problem is marked as a fail/review. 
+> **Complexity Rule:** Time and Space complexity must be stated before coding.
+
+## 📝 Problem Autopsy Ledger
+
+| # | Problem & Link | Time | Pattern & Triggers | Complexity | The "Gotcha" / Bottleneck | Edge Cases |
+| :--- | :--- | :---: | :--- | :--- | :--- | :--- |
+| 1 | [862. Shortest Subarray with Sum at least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | 20m logic<br> 28m total | **Pattern:** Prefix Sum + Monotonic Deque <br>**Trigger:** "Shortest subarray sum >= k", "Array contains negative and positive integers" | **Time:** `O(N)`<br>**Space:** `O(N)` | The first instinct is to try Sliding window approach here but it fails because sliding window sum works when all entries are non-negative, i.e. increasing the window increases the sum and decreasing the window decreases the sum. Here, increasing the window can increase or decrease the sum. To calculate sum of any subarray, prefix sum allows you to do it in `O(1)` time. Iterate over the prefix sum array, for any `x` and `y` index, sum is `prefix[y]-prefix[x]` given `y>x`. In order to do this in `O(n)` time you can leverage a monotonic deque with two constraint. For any `y`, if the front of deque satisfies `prefix[y]-prefix[front]` then you found a valid subarray and you can pop front and any further `y` will only give you a longer subarray and if back of the deque has a larger prefix sum than `prefix[y]` then for any further `y` it will give you a smaller sum(maybe `<k`) and longer subarray so pop back as well in such cases | If there is a single element then that element should be `>=k` |
