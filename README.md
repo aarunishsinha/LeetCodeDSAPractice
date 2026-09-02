@@ -19,6 +19,7 @@ Problems are categorized by core patterns rather than data structures. This help
 * [Intervals](./Intervals/)
 * [Trees](./Trees/)
 * [Prefix Sum](./PrefixSum/)
+* [Bitwise](./Bitwise/)
 
 ## 🎯 The Methodology
 
